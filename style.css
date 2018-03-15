@@ -16,19 +16,19 @@ body{
 header{
     background: #ebebeb;
     box-sizing: border-box;
-    position: relative;
+    width: 960px;
     padding: 30px;
     margin-bottom: 10px;
-    width: 960px;
+    position: relative;
     float: left;
 }
 
 nav{
     background: #ebebeb;
     box-sizing: border-box;
+    width: 960px;
     padding: 30px;
     margin-bottom: 10px;
-    width: 960px;
     position: relative;
     float: left;
 }
@@ -43,13 +43,13 @@ nav{
 section{
     background: #ebebeb;
     box-sizing: border-box;
+    width: 495px;
+    height: 310px;
     padding-top:30px;
     padding-bottom: 30px;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 495px;
-    height: 310px;
     position: relative;
     float: left;
 }
@@ -58,11 +58,11 @@ article{
     clear: both;
     background: #777;
     box-sizing: border-box;
+    width: 465px;
+    height: 220px;
     padding: 10px;
     padding-top: 20px;
     color: #ebebeb;
-    height: 220px;
-    width: 465px;
     position: absolute;
     top: 85px;
     left: 15px;
@@ -71,10 +71,10 @@ article{
 #headers{
     background: #ebebeb;
     color: grey;
+    width: 380px;
     padding: 25px;
     position: absolute;
     float: left;
-    width: 380px;
     left: 30px;
     top: 140px;
 }
@@ -82,12 +82,12 @@ article{
 p{
     background: #ebebeb;
     color: grey;
+    width: 380px;
     padding: 25px;
     position: absolute;
     float: left;
     left: 30px;
     top: 200px;
-    width: 380px;
 }
 
 
@@ -95,6 +95,8 @@ aside{
     background: #ebebeb;
     box-sizing: border-box;
     width: 445px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 20px;
     padding-top:30px;
     padding-bottom: 30px;
@@ -102,17 +104,15 @@ aside{
     position: relative;
     float: left;
     left: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 footer{
     clear: both;
     background: #ebebeb;
     box-sizing: border-box;
-    position: relative;
+    width: 960px;
     padding: 30px;
     margin-top: 10px;
-    width: 960px;
+    position: relative;
     float: left;
 }
